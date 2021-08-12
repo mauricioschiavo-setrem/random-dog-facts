@@ -8,6 +8,7 @@ export default function Home() {
   function handleAdd() {
     setInterval(() => {
       setCounter(prevState => prevState * 2);
+      //GITHUB SPACES TEST
     }, 50);
   }
 
